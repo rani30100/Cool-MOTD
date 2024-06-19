@@ -1,0 +1,2 @@
+# Cool-MOTD
+# Cool-MOTD

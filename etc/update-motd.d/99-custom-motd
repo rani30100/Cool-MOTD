@@ -1,0 +1,21 @@
+  GNU nano 7.2                     99-custom-motd                               
+/usr/games/cowsay "j'aime Coder"
+echo "======================================="
+echo "           SYSTEM INFORMATION          "
+echo "======================================="
+/usr/bin/screenfetch
+echo
+echo "======================================="
+echo "             DISK USAGE                "
+echo "======================================="
+inxi -D 2> /dev/null
+echo
+echo "======================================="
+echo "            WEATHER REPORT             "
+echo "======================================="
+ansiweather -l uzes
+echo
+echo "======================================="
+echo "        WELCOME TO YOUR SERVER         "
+echo "======================================="
+

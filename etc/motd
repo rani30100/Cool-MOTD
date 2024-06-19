@@ -1,0 +1,19 @@
+#!/bin/sh
+echo "======================================="
+echo "           SYSTEM INFORMATION          "
+echo "======================================="
+/usr/bin/screenfetch
+echo
+echo "======================================="
+echo "             DISK USAGE                "
+echo "======================================="
+inxi -D 2> /dev/null
+echo
+echo "======================================="
+echo "            WEATHER REPORT             "
+echo "======================================="
+ansiweather -l uzes
+echo
+echo "======================================="
+echo "        WELCOME TO YOUR SERVER         "
+echo "======================================="
